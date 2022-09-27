@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    border: 1px solid black;
+    
+}
+.child{
+    /* border: 1px solid red; */
+    width: 33.30%;
+    height: 24rem;
+
+   
+
+}
+span{
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(47, 105, 222);
+}
+.child-div1{
+    background: url("images/strength2.jpg");
+    background-size: cover;
+    border-radius:1rem 0 0 1rem;
+}
+.child-div2{
+    background: url("images/mobility1.jpg");
+    background-size: cover;
+}
+.child-div3{
+    background: url("images/run.jpg");
+    background-size: cover;
+    border-radius:0 1rem 1rem 0;
+}
+
+
